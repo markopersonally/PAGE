@@ -6,6 +6,7 @@ export default function Navigation() {
     <nav className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
+          <div className="h-[32px] w-[32px]">logo</div>
           <div className="flex space-x-8 items-center">
             <Link
               to="/"
