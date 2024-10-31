@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import Navigation from "./components/Navigation.tsx";
 import AppRoutes from "./components/AppRoutes.tsx";
 import { ThemeProvider } from "./context/ThemeContext.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <AppRoutes />
             </AnimatePresence>
           </main>
+          <Footer />
         </div>
       </ThemeProvider>
     </BrowserRouter>
